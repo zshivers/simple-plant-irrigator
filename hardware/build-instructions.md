@@ -8,18 +8,20 @@
 | Cut to length | Red wire, 24 AWG | ? |
 | Cut to length | Black wire, 24 AWG | ? |
 | Cut to length | Plastic tubing | ? |
-| 2 | Fittings for tubing, straight | $? |
-| 1 | Fittings for tubing, right angle | $? |
-| 1 | USB A to Micro-B cable | $? |
-| 1 | USB supply 1A | $? |
+| 2 | Fittings for tubing, straight | ? |
+| 1 | Fittings for tubing, right angle | ? |
+| 1 | USB A to Micro-B cable | ? |
+| 1 | USB supply 1A | ? |
 
 ## Wiring
+![Trinket Wiring](trinket-wiring.jpg)
 - 2N7000 pin 1 (source) to GND, use ground pad from battery connector
 - 2N7000 pin 2 (gate) to Trinket GPIO #0
 - 2N7000 pin 3 (drain) to motor negative
 - Motor positive to Trinket USB pin
 
 ## Motor modifications
+![Motor mod](motor.jpg)
 - Solder 0.1uF cap from metal motor body to motor input terminal, for both positive and negative terminals.
 
 ## Trinket modifications
